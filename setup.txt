@@ -3,3 +3,4 @@ Run with npx expo start
 Download Expo Go app on mobile phone
 IOS: Scan QR code with camera
 Android: Scan QR code through Expo Go app
+* Note: I am not running the app with Xcode installed. I do not own an Android phone, and my laptop does not have the space required to install Xcode.
