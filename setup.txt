@@ -1,0 +1,5 @@
+1. Install dependencies with yarn
+2. Run with npx expo start
+3. Download Expo Go app on mobile phone
+4. IOS: Scan QR code with camera
+5. Android: Scan QR code through Expo Go app
