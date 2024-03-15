@@ -1,16 +1,13 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+// import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useChatClient } from './useChatClient';
 import { AppProvider } from "./AppContext";
-import {
-  Chat,
-  OverlayProvider
-} from 'stream-chat-react-native'; // Or stream-chat-expo
-import { StreamChat } from 'stream-chat';
+// import { Chat, OverlayProvider } from 'stream-chat-react-native'; // Or stream-chat-expo
+import { StreamChat } from 'stream-chat-expo';
 import { chatApiKey } from './chatConfig';
 
 const Stack = createStackNavigator();
