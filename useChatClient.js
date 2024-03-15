@@ -1,7 +1,7 @@
 // useChatClient.js
 
 import { useEffect, useState } from 'react';
-import { StreamChat } from 'stream-chat';
+import { StreamChat } from 'stream-chat-expo';
 import { chatApiKey, chatUserId, chatUserName, chatUserToken } from './chatConfig';
 
 const user = {
@@ -37,6 +37,12 @@ export const useChatClient = () => {
       setupClient();
     }
   }, []);
+
+  return {
+    clientIsReady,
+  };
+};
+
 
   return {
     clientIsReady,
